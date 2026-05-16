@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: my-configmap
+data: 
+  APP_ENV: prod
+  APP_PORT: "8080"
+  DOCKER_BUILDID: "1"
